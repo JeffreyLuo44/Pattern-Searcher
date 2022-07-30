@@ -4,15 +4,25 @@
 -------------------------------------------------
 Grammar:
 E -> T
+
 E -> TE
+
 T -> F
+
 T -> F*
+
 T -> F+
+
 T -> F?
+
 T -> F|E
+
 F -> .
+
 F -> v
+
 F -> \v
+
 F -> (E)
 
 USAGE: java REcompile <REGEX> | java REsearch <file to be searched>
